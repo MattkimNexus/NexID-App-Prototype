@@ -1,0 +1,6 @@
+Flask_RESTful==0.3.6
+Werkzeug==0.14.1
+qrtools==0.0.2
+PyQRCode==1.2.1
+Flask==1.0.2
+pypng==0.0.18

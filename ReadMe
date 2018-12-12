@@ -1,0 +1,18 @@
+How to install:
+
+1. goto directory
+2. run: sudo apt-get install libzbar-dev
+3. run: sudo apt-get install pip
+4. run: pip install -r requirements.txt
+
+How to run the server: python server.py
+
+How to create a new qr code: python create_qr.py
+
+-this will create an empty profile in the database and the qr code will be saved to /qrcodes
+
+
+How to recreate a already created qr code: python create_qr.py profile_id
+
+i.e. python create_qr.py 132424122223
+-this will create qr code but wont create the profile again and will be saved to /qrcodes
